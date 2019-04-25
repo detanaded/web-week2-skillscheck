@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  font-family: 'Franklin Gothic Medium';
+}
+/* =================HEADER========================== */
+.header1 {
+  background: grey;
+  width: 100%;
+  height: 70px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company  {
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+ul {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  margin-right: 40px;
+  font-size: 12px;
+  list-style: none;
+}
+
+/* ==================HERO========================= */
+
+.hero{
+  width: 100%;
+  background: black;
+  height: 350px;
+  color:#E9E05F;
+  display: flex;
+  font-size:28px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+/* ====================BOXING=============== */
+
+.boxes {
+
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box1 {
+  background:#A4FFD7;
+  width: 17%;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.box2 {
+  background:#A4FFD7;
+  width: 17%;
+  height: 200px;
+  border-radius: 15px;
+}
+.box3 {
+  background:#A4FFD7;
+  width: 17%;
+  height: 200px;
+  border-radius: 15px;
+}
+
+
+/* =================RECTANGLE================= */
+
+.rect {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rect1 {
+  background:#FFC36C;
+  width: 35%;
+  height: 185px;
+  margin-left: 110px;
+}
+
+.rect2{
+  background:#FFC36C;
+  width: 35%; 
+  height: 185px;
+  margin-right: 110px;
+}
+
+
+/* ==========================BOTTOM================================= */
+.bottom {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+p {
+  font-size: 12px;
+}
+.footer {
+  background:#3A3A56;
+  height: 100px;
+}
